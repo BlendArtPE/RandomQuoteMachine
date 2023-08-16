@@ -1,0 +1,29 @@
+$colors: (
+  #FF5733,
+  #3498DB,
+  #E74C3C,
+  #2ECC71,
+  #9B59B6,
+  #F39C12,
+  #1ABC9C,
+  #D35400,
+  #27AE60,
+  #C0392B,
+  );
+
+$color: nth($colors,2);
+
+  body{
+    background-color: $color
+  }
+  
+  .text,.author{
+    color: $color
+  }
+
+  .button{
+    background-color: $color;
+    color: white
+  }
+
+
