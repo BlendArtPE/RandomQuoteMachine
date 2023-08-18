@@ -25,5 +25,11 @@ $color: nth($colors,2);
     background-color: $color;
     color: white
   }
-
+  .button:hover{
+    background-color: lighten($color, 10%);
+    color: white
+  }
+  #tweet-quote{
+    color: white
+  }
 
