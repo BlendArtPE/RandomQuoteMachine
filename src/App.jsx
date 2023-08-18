@@ -30,6 +30,7 @@ function App() {
 
   return (
     <>
+    
       <div className="d-flex justify-content-center align-items-center vh-100">
         <div className="box card p-4" id="quote-box">
           <h1 className="text" id="text">
@@ -44,10 +45,10 @@ function App() {
               <div className="col-md-6">
                 <button className="button btn mt-3" id="tweet-quote-button">
                   <a
-                    href="https://twitter.com/intent-tweet"
+                    href="https://twitter.com/intent/tweet"
                     id="tweet-quote"
-                    target="blank"
-                    className="text-decoration-none"
+                    target="_blank"
+                    className="text-decoration-none" rel="noreferrer"
                   >
                     Tweet
                   </a>
